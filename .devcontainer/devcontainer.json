@@ -1,0 +1,22 @@
+imagenet-etiquetas-simplificadas/
+|--README.md
+|--LICENSE
+|--data/
+|       imagenet_simple_labels.json
+# Archivo principal con las etiquetas 
+|       imagenet_synset_mapping.json
+# Mapeo de WordNet Synset a etiquetas simplificadas
+|       original_imagenet_labels.txt
+# Opcional:Copia de las etiquetas originales de imageNet
+|   scripts/
+        generate_labels.py
+# Script para generar las etiquetas 
+(si se hace de forma programatica)
+|       validate_labels.py
+# Script para validar la consistencia y legibilidad de las etiquetas
+|    docs/
+         principal.md
+# Principios de seleccion de 
+etiquetas
+|        comparison.md
+# Comparacion con otros conjuntos de etiquetas (keras, originales)
